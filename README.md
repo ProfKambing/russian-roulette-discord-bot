@@ -1,1 +1,3 @@
-# emma-remastered
+# Russian roulette in discord.
+
+;roulette
