@@ -26,7 +26,7 @@ public class Main {
     public static void main(String[] args) throws IOException, LoginException, IllegalArgumentException, RateLimitedException {
         String token = ""; //insert ur token
 
-        String ownerId = "806897032337817610";
+        String ownerId = "";
 
         EventWaiter waiter = new EventWaiter();
         client = new CommandClientBuilder();
@@ -38,9 +38,6 @@ public class Main {
         client.addCommands( //register all da commands
                 new PingCommand(),
                 new ShutdownCommand(),
-                new FakeVirusCommand(),
-                new ShutdownPCCommand(),
-                new ResTrollCommand(),
                 new RussianRoulette()
 
      );
